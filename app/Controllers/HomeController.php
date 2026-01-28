@@ -19,6 +19,8 @@ final class HomeController extends Controller
 
         // TODO
 
+        // Main page
+
         return $this->view('index', ['title' => 'Our home']);
     }
 
