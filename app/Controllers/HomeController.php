@@ -15,7 +15,9 @@ final class HomeController extends Controller
 
         $users = $user->all();
 
-        dd($users);
+        var_dumpss($users);
+
+        
 
         return $this->view('index', ['title' => 'Our home']);
     }
