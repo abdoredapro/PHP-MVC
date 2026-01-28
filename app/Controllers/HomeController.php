@@ -17,7 +17,7 @@ final class HomeController extends Controller
 
         var_dumpss($users);
 
-        
+        // TODO
 
         return $this->view('index', ['title' => 'Our home']);
     }
