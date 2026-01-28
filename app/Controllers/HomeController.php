@@ -21,6 +21,8 @@ final class HomeController extends Controller
 
         // Main page
 
+        // Second Main Page
+
         return $this->view('index', ['title' => 'Our home']);
     }
 
