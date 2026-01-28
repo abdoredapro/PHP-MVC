@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Model\User;
 use Core\Controller;
 
-class HomeController extends Controller
+final class HomeController extends Controller
 {
     public function index()
     {
