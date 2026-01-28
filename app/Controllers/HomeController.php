@@ -13,7 +13,7 @@ final class HomeController extends Controller
 
         $users = $user->all();
 
-        var_dump($users);
+        var_dumpss($users);
 
         
 
