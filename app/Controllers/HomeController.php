@@ -11,6 +11,8 @@ final class HomeController extends Controller
     {
         $user = new User();
 
+        $vendor = new Vendor();
+
         $users = $user->all();
 
         var_dump($users);
